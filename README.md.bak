@@ -19,7 +19,7 @@ This library is compatible with:
 
 ## Documentation
 
-All PI Web API server methods are mapped on this client. Please refer to [PI Web API help page](https://docs.aveva.com/bundle/pi-web-api-reference/page/help). 
+All PI Web API server methods are mapped on this client. Please refer to [PI Web API help page](/piwebapi/help). 
 
 ## Installation
 
@@ -56,7 +56,7 @@ To get a Git project into your build:
 
 1)Add it in your root build.gradle at the end of repositories:
 
-```
+```JSON
 	allprojects {
 		repositories {
 			...
@@ -67,7 +67,7 @@ To get a Git project into your build:
 	
  2)Add the dependency
  
-```
+```JSON
 	dependencies {
 	        implementation 'com.github.pidevguru:PI-Web-API-Client-Java:main-SNAPSHOT'
 	}
